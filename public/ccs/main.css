@@ -1,0 +1,24 @@
+/* O que é uma regra CSS? */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* Altera o comportamento do cálculo da borda, respeitando o padding */
+
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: #ebf2f5;
+}
+
+:root {
+    font-size: 62.5% /* porcentagem para que cada 01 rem seja 10px */
+}
+
+body, 
+input, 
+button, 
+textarea {
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
